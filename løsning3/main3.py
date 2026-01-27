@@ -1,4 +1,4 @@
-from ttkv3 import GuiApp
+from ttkv3_styled import GuiApp
 
 
 def main():

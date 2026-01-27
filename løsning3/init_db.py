@@ -54,18 +54,19 @@ def init_database():
     
     # Insert D&D classes with abilities and descriptions
     classes_data = [
-        (1, 'Barbarian', 'Strength', 'A fierce warrior fueled by rage and primal power'),
-        (2, 'Bard', 'Charisma', 'A charming performer who weaves magic through art and music'),
-        (3, 'Cleric', 'Wisdom', 'A devoted servant of a deity who channels divine magic'),
-        (4, 'Druid', 'Wisdom', 'A shapeshifter connected to nature and its primal forces'),
-        (5, 'Fighter', 'Strength', 'A master of combat with extensive martial training'),
-        (6, 'Monk', 'Dexterity', 'A disciplined martial artist with supernatural abilities'),
-        (7, 'Paladin', 'Strength', 'A righteous warrior bound by sacred oath and conviction'),
-        (8, 'Ranger', 'Dexterity', 'A skilled tracker and archer of the wilderness'),
-        (9, 'Rogue', 'Dexterity', 'A cunning operative specializing in stealth and precision'),
-        (10, 'Sorcerer', 'Charisma', 'A spellcaster with innate magical blood and power'),
-        (11, 'Warlock', 'Charisma', 'A spellcaster bound by pact with an otherworldly patron'),
-        (12, 'Wizard', 'Intelligence', 'A scholarly mage who masters magic through study'),
+        (1, 'artificer', 'intelligence', '-mad scientist personified-'),
+        (2, 'barbarian', 'strength', '-big fuck-off muscles-'),
+        (3, 'bard', 'charisma', '-dms beware, no character is safe-'),
+        (4, 'cleric', 'wisdom', '-never piss off the healer-'),
+        (5, 'druid', 'wisdom', '-hippies-'),
+        (6, 'fighter', 'strength', '-big stick go BONK-'),
+        (7, 'monk', 'dexterity', '-i punch this guy 18 times!-'),
+        (8, 'paladin', 'strength', '-murdering with the power of god-'),
+        (9, 'ranger', 'dexterity', '-the sniper *queue TF2 music*-'),
+        (10, 'rogue', 'dexterity', '-i sneak attack him foooor... 55d6 damage-'),
+        (11, 'sorcerer', 'charisma', '-magic through the power of rizz-'),
+        (12, 'warlock', 'charisma', '-magic through the power of sugar daddies-'),
+        (13, 'wizard', 'intelligence', '-spend 20 years reading books, just to find out you just have to believe hard enough-'),
     ]
     
     cursor.executemany("""
